@@ -1,0 +1,16 @@
+from tkinter import *
+
+root = Tk() 
+frame = Frame(root) 
+frame.pack() 
+bottomframe = Frame(root) 
+bottomframe.pack( side = BOTTOM ) 
+orangebutton = Button(frame, text = 'orange', fg ='orange') 
+orangebutton.pack( side = LEFT) 
+brownbutton = Button(frame, text = 'Brown', fg='brown') 
+brownbutton.pack( side = LEFT ) 
+bluebutton = Button(frame, text ='Blue', fg ='blue') 
+bluebutton.pack( side = LEFT ) 
+pinkbutton = Button(bottomframe, text ='pink', fg ='pink') 
+pinkbutton.pack( side = BOTTOM) 
+root.mainloop() 
